@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./theme/colors";
+
+html,
+body,
+.full-container {
+  width: 100%;
+  height: 100%;
+}
+
+.base-text {
+  color: $second-color;
+}
+
+h1,
+h2 {
+  @extend .base-text;
+  font-family: Alegreya Sans, sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+p {
+  font-family: Alegreya Sans, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}

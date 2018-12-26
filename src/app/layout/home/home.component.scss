@@ -1,0 +1,25 @@
+@import "../../../theme/colors";
+
+.imageContainer {
+  background-image: url("../../../assets/images/IMG_4144.JPG");
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position-x: center;
+  background-position-y: 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-card {
+  height: 50%;
+  background-color: $primary-color;
+  padding: 4%;
+}
+
+.image-title {
+  position: absolute;
+  right: 10%;
+  bottom: 50%;
+}
