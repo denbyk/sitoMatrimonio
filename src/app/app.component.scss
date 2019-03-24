@@ -1,0 +1,14 @@
+.lock-page {
+  position: fixed;
+  -webkit-filter: blur(5px);
+  filter: blur(10px);
+  z-index: 100;
+  background-image: url("../assets/images/IMG_4144.JPG");
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position-x: center;
+  background-position-y: 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

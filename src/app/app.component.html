@@ -1,5 +1,10 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="full-container" style="text-align:center">
+  <div *ngIf="isLocked" class="lock-page">
+    <p>Il sito è attualmente in manutenzione, date tempo allo sposo</p>
+    <input #passwordInput type="text">
+    <input type="button" (click)="submitPassword(passwordInput.value)">
+  </div>
   <app-header></app-header>
   <router-outlet></router-outlet>
   <app-footer></app-footer>
