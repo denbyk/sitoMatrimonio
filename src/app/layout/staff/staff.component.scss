@@ -1,0 +1,16 @@
+@import '../../../theme/colors';
+
+$personPhotoSize: 150px;
+
+.staff-page {
+  padding-top: 150px;
+  background-color: $primary-color;
+}
+
+.person-photo {
+  display: inline-block;
+  width: $personPhotoSize;
+  height: $personPhotoSize;
+  background-color: deeppink;
+  margin: 15px;
+}

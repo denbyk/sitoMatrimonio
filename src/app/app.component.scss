@@ -1,9 +1,7 @@
 .lock-page {
   position: fixed;
-  -webkit-filter: blur(5px);
-  filter: blur(10px);
   z-index: 100;
-  background-image: url("../assets/images/IMG_4144.JPG");
+  background-image: url("../assets/images/IMG_4144_blurred.JPG");
   height: 100%;
   width: 100%;
   background-attachment: fixed;
@@ -11,4 +9,19 @@
   background-position-y: 25%;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.lock-page-input {
+  padding: 10px;
+  text-align: center;
+}
+
+.lock-page-input-btn {
+
+}
+
+.lock-page-input-container {
+  top: 35%;
+  position: fixed;
+  width: 100%;
 }

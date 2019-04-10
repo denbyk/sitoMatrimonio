@@ -24,26 +24,18 @@
 
 .chiesa {
   position: relative;
-  //background-size: ;
   background:
-    //linear-gradient(to bottom, rgba(243,204,154,1), rgba(0,0,0,0)),
     linear-gradient(to bottom, rgba(243,204,154,1) 0%,rgba(41,137,216,0) 50%,rgba(243,204,154,1) 100%),
     url("../../../assets/images/chiesa.jpg") center center / cover no-repeat;
   background-attachment: scroll, fixed;
+}
 
-
-  //@include filter-gradient(#f3cc9a, #f3cc9a, vertical);
-  //@include background-image();
-
-  //&:before {
-  //  content: '';
-  //  position: absolute;
-  //  top: 0;
-  //  right: 0;
-  //  bottom: 0;
-  //  left: 0;
-  //  background-image: linear-gradient(to bottom,rgba(243,204,154,1),rgba(0,0,0,0));
-  //}
+.fontanafredda {
+  position: relative;
+  background:
+    linear-gradient(to bottom, rgba(243,204,154,1) 0%,rgba(41,137,216,0) 50%,rgba(243,204,154,1) 100%),
+    url("../../../assets/images/fontanafredda.jpg") center center / cover no-repeat;
+  background-attachment: scroll, fixed;
 }
 
 .location-content {
