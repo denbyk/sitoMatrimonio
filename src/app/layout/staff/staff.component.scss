@@ -3,8 +3,9 @@
 $personPhotoSize: 150px;
 
 .staff-page {
-  padding-top: 150px;
+  //padding-top: 150px;
   background-color: $primary-color;
+  padding: 150px 15% 50px;
 }
 
 .person-photo {
@@ -13,4 +14,33 @@ $personPhotoSize: 150px;
   height: $personPhotoSize;
   background-color: deeppink;
   margin: 15px;
+}
+
+.staff-container--right {
+  text-align: right;
+}
+
+.staff-container--left {
+  text-align: left;
+}
+
+.staff-container-list {
+  padding-top: 50px;
+}
+
+.subtitle-staff {
+  padding-top: 50px;
+}
+
+.staff-page p{
+  margin-bottom: 0;
+
+}
+
+.dark-bg {
+  background-color: $second-color;
+  padding-top: 25px;
+  h1, h2, p {
+    color: $primary-color;
+  }
 }
