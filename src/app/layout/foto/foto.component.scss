@@ -1,0 +1,13 @@
+@import '../../../theme/colors';
+
+$personPhotoSize: 150px;
+
+.foto-page {
+  background-color: $second-color;
+  padding: 150px 15% 50px;
+  text-align: left;
+
+  h1, h2, p {
+    color: $primary-color;
+  }
+}
