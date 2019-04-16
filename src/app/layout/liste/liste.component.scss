@@ -1,0 +1,50 @@
+@import '../../../theme/colors';
+
+
+.liste-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.liste-page {
+  padding-top: 150px;
+  background-color: $second-color;
+}
+
+
+
+.liste-container {
+  padding: 50px 15% 0;
+}
+
+.liste-container--right {
+  text-align: right;
+}
+
+.liste-container--left {
+  text-align: left;
+}
+
+.tovaglia {
+  position: relative;
+  height:100vh;
+  background:
+    linear-gradient(to bottom, rgba(80,69,56,1) 0%,rgba(80,69,56,0) 20%, rgba(80,69,56,0) 80%,rgba(80,69,56,1) 100%),
+    url("../../../assets/images/tovaglia.jpg") center center / cover no-repeat;
+  background-attachment: scroll, fixed;
+}
+
+.viaggio {
+  position: relative;
+  height:100vh;
+  background:
+    linear-gradient(to bottom, rgba(80,69,56,1) 0%,rgba(80,69,56,0) 20%, rgba(80,69,56,0) 80%,rgba(80,69,56,1) 100%),
+    url("../../../assets/images/newyork.jpg") center center / cover no-repeat;
+  background-attachment: scroll, fixed;
+
+}
+
+
+
+

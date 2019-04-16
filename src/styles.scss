@@ -10,18 +10,27 @@ body,
 
 .base-text {
   color: $second-color;
+  font-family: Alegreya Sans, "Arial", serif;
 }
 
 h1,
 h2 {
   @extend .base-text;
-  font-family: Alegreya Sans, "Arial", serif;
   font-weight: 700;
   font-size: 45px;
 }
 
 p {
-  font-family: Alegreya Sans, "Arial", serif;
+  @extend .base-text;
   font-weight: 400;
   font-size: 22px;
 }
+
+
+
+.inverted-text {
+  h1, h2, p {
+    color: $primary-color;
+  }
+}
+
