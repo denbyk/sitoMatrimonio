@@ -5,6 +5,7 @@ import {LocationComponent} from './layout/location/location.component';
 import {StaffComponent} from './layout/staff/staff.component';
 import {ListeComponent} from './layout/liste/liste.component';
 import {FotoComponent} from './layout/foto/foto.component';
+import {UnfinishedComponent} from './layout/unfinished/unfinished/unfinished.component';
 
 const routes: Routes = [{
   path: '',
@@ -14,7 +15,7 @@ const routes: Routes = [{
   component: LocationComponent,
 }, {
   path: 'staff',
-  component: StaffComponent,
+  component: UnfinishedComponent, // TODO: ripristinare quando StaffComponent è completo. StaffComponent,
 }, {
   path: 'foto',
   component: FotoComponent,

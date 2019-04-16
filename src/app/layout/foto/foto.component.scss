@@ -5,9 +5,18 @@ $personPhotoSize: 150px;
 .foto-page {
   background-color: $second-color;
   padding: 150px 15% 50px;
-  text-align: left;
+  text-align: center;
 
-  h1, h2, p {
+  h1, h2 {
     color: $primary-color;
   }
+  p {
+    margin-top: 50px;
+    color: $primary-color;
+  }
+}
+
+.foto-page-button {
+  margin-top: 50px;
+  background-color: $primary-color;
 }

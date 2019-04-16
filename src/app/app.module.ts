@@ -10,6 +10,7 @@ import { LocationComponent } from './layout/location/location.component';
 import { StaffComponent } from './layout/staff/staff.component';
 import { ListeComponent } from './layout/liste/liste.component';
 import { FotoComponent } from './layout/foto/foto.component';
+import { UnfinishedComponent } from './layout/unfinished/unfinished/unfinished.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FotoComponent } from './layout/foto/foto.component';
     LocationComponent,
     StaffComponent,
     ListeComponent,
-    FotoComponent
+    FotoComponent,
+    UnfinishedComponent
   ],
   imports: [
     BrowserModule,
