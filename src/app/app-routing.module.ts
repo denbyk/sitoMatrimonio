@@ -6,10 +6,11 @@ import {StaffComponent} from './layout/staff/staff.component';
 import {ListeComponent} from './layout/liste/liste.component';
 import {FotoComponent} from './layout/foto/foto.component';
 import {UnfinishedComponent} from './layout/unfinished/unfinished/unfinished.component';
+import {AfterMarriageComponent} from './layout/after-marriage/after-marriage.component';
 
 const routes: Routes = [{
   path: '',
-  component: HomeComponent,
+  component: AfterMarriageComponent,
 }, {
   path: 'location',
   component: LocationComponent,

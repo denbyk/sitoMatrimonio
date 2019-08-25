@@ -12,6 +12,7 @@ import { ListeComponent } from './layout/liste/liste.component';
 import { FotoComponent } from './layout/foto/foto.component';
 import { UnfinishedComponent } from './layout/unfinished/unfinished/unfinished.component';
 import {FormsModule} from '@angular/forms';
+import { AfterMarriageComponent } from './layout/after-marriage/after-marriage.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {FormsModule} from '@angular/forms';
     StaffComponent,
     ListeComponent,
     FotoComponent,
-    UnfinishedComponent
+    UnfinishedComponent,
+    AfterMarriageComponent
   ],
   imports: [
     FormsModule,
