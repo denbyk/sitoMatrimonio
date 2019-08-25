@@ -3,12 +3,16 @@
   <div class="lock-page" *ngIf="isLocked">
     <div class="lock-page-input-container">
       <p>Inserisci la password, la puoi trovare sull'invito...</p>
-      <input class="lock-page-input" #passwordInput type="text" (keypress)="enterPasswordInput($event)">
+      <input class="lock-page-input"
+             #passwordInput
+             type="text"
+             (keypress)="enterPasswordInput($event)"
+             [ngModel]="passwordString"
+             (ngModelChange)="submitPassword($event)">
     </div>
   </div>
   <ng-container *ngIf="!isLocked">
     <app-header></app-header>
     <router-outlet></router-outlet>
   </ng-container>
-  <!--<app-footer></app-footer>-->
 </div>

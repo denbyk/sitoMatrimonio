@@ -11,6 +11,7 @@ import { StaffComponent } from './layout/staff/staff.component';
 import { ListeComponent } from './layout/liste/liste.component';
 import { FotoComponent } from './layout/foto/foto.component';
 import { UnfinishedComponent } from './layout/unfinished/unfinished/unfinished.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { UnfinishedComponent } from './layout/unfinished/unfinished/unfinished.c
     UnfinishedComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule
   ],
