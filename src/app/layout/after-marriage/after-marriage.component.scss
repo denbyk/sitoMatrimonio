@@ -1,7 +1,11 @@
 @import "../../../theme/colors";
 
+h2 {
+  font-size: 30px;
+}
+
 .imageContainer {
-  background-image: url("../../../assets/images/sposiVigne.png");
+  background-image: url("../../../assets/images/sposiVigne.jpg");
   height: 99%;
 
   /* Create the parallax scrolling effect */
@@ -16,6 +20,20 @@
   //height: 50%;
   background-color: $primary-color;
   padding: 4%;
+}
+
+.emi-card {
+  padding-bottom: 50px;
+  button {
+    margin-bottom: 10px;
+  }
+  h1 {
+    padding: 10px;
+  }
+}
+
+.padding--last {
+  padding-bottom: 0;
 }
 
 .image-title {
@@ -34,4 +52,50 @@ $personPhotoSize: 150px;
   margin-bottom: 30px;
   background-color: $second-color;
   color: $primary-color;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+  margin: 0 0 10px 0;
+}
+
+.fiori {
+  background-image: url("../../../assets/images/icons/bloom.jpg");
+}
+
+.foto {
+  background-image: url("../../../assets/images/icons/joy.png");
+}
+
+.cibo {
+  background-image: url("../../../assets/images/icons/fontanafredda.png");
+}
+
+.musica {
+  background-image: url("../../../assets/images/icons/pavignano.png");
+}
+
+.inviti {
+  background-image: url("../../../assets/images/icons/nuvole.png");
+}
+
+.dark-bg {
+  background-color: $second-color;
+  padding-top: 25px;
+  h1, h2, p {
+    color: $primary-color;
+  }
+}
+
+.professionals-container {
+  padding: 50px 0 50px;
+}
+
+.professional-entry {
+  padding-bottom: 40px;
 }
